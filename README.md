@@ -7,7 +7,7 @@
 
 ##Wymagania sprzętowe
   
-  >Program będzie umieszczony na komputerze, podłączonego do skanera, który będzie skanował fakturę i wysyłał zdjęcie do        określonego folderu na komputerze. Potrzebny jest więc komputer z podłączonym skanerem. Przy wykorzystaniu wariantu z        zapisywaniem atrybutów do pliku tekstowego, nic więcej nie jest potrzebne. 
+ >Komputer, skaner, połączenie między 1, a 2. 
   
 ##Założenia
   
