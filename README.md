@@ -28,3 +28,7 @@
 ##Co jeśli nie zostaną spełnione założenia : 
 
   >Jeśli okaże się, że biblioteka Ocropus nie będzie wystarczająco efektywna w odczytywaniu tego, czego potrzebuję, chcę stworzyć program, który pozwoli na kodowanie wszystkich potrzebnych dannych w kodzie QR ( lub innym tego typu rozwiązaniu ), który będzie można odczytać dzięki narzędziu zainstalowanym na komputerze osoby księgującej. 
+
+##Interfejs użytkownika
+
+  >Użytkownik musi mieć możliwość weryfikacji zczytywanych danych w momencie pojawienia się błędu - w zależności od poziomu skuteczności odczytywania. Jeśli skuteczność będzie na poziomie 99 %, wystarczy, że użytkownik na koniec działania programu zobaczy okno z problematycznymi dokumentami i ręcznie je zredaguje. Jeśli skuteczność okaże się być na poziomie 50%, użtkownik będzie musiał siedzieć przy komputerze i sprawdzać dane pod kątem poprawności. Program będzie działał na platformie Windows i jest interfejs powinien się ograniczać do powiadomienia pojawiającego się w momencie zatrzymania działania programu ( dokument problematyczny w odczycie ), może w tym momencie również być odgrywany jakiś dźwięk. W momencie pojawienia się błędu wyskakuje np w prawym górnym rogu informacja o błędzie, oraz przycisk, którym można wznowić działanie programu po zredagowaniu wprowadzonych przez niego danych. 
