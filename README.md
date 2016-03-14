@@ -32,3 +32,12 @@
 ##Interfejs użytkownika
 
   >Użytkownik musi mieć możliwość weryfikacji zczytywanych danych w momencie pojawienia się błędu - w zależności od poziomu skuteczności odczytywania. Jeśli skuteczność będzie na poziomie 99 %, wystarczy, że użytkownik na koniec działania programu zobaczy okno z problematycznymi dokumentami i ręcznie je zredaguje. Jeśli skuteczność okaże się być na poziomie 50%, użtkownik będzie musiał siedzieć przy komputerze i sprawdzać dane pod kątem poprawności. Program będzie działał na platformie Windows i jest interfejs powinien się ograniczać do powiadomienia pojawiającego się w momencie zatrzymania działania programu ( dokument problematyczny w odczycie ), może w tym momencie również być odgrywany jakiś dźwięk. W momencie pojawienia się błędu wyskakuje np w prawym górnym rogu informacja o błędzie, oraz przycisk, którym można wznowić działanie programu po zredagowaniu wprowadzonych przez niego danych. 
+  
+##Interakcja ( jak powinien działać krok po kroku ) 
+>
+  1. Użytkownik włącza program, który wskakuje do traya i działa w tle. 
+  2. Program powinien mieć opcję umożliwiającą użytkownikowi wybór, czy chce, żeby program działał od razu po włączenu, czy dopiero w momencie wciśnięcia np. start. 
+  3. Kiedy program działa, sprawdza on wprowadzony wcześniej folder ( folder, do którego skaner zapisuje zdjęcia dokumentów ), a kiedy znajdzie nowy plik, wykonuje na nim operacje zczytywania. 
+  4. Zczytane dane sa zapisywane do pliku csv, lub wprowadzane automatycznie do programu ( nie jestem jeszcze pewien, czy jest możliwość, stąd dwa różne pomysły ) 
+  5. Program powinien mieć możliwość ustawienia, czy użytkownik chce zreadgować błędnie zczytane dokumenty na samym końcu skanowania, czy w momencie pojawienia się błędu. 
+  6. W momencie, w którym nie będą pojawiały się nowe obrazy w folderze skanowania, program powinien odliczać ok minuty, po czym pownno wyskoczyć okno z zapytaniem, czy użytkownik chce zakończyć jego działanie. 
